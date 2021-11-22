@@ -1,0 +1,37 @@
+@import "styles/variables";
+
+.nav-bgc{
+    background-color: $BCdarkBlue;
+}
+.color-lightW{
+    color: $TextW;
+}
+.bg-img{
+    background-image: url(./assets/bg-2.jpg);
+    background-size: cover;
+    height: 50vw;
+}
+
+.btn-green{
+    background-color: $btn-dark;
+    color: $TextW;
+}
+
+.btn-light{
+    //background: none;
+    background:none;
+    border: 1px solid  $btn-dark;
+    color: $TextW;
+
+    &:hover{
+        
+        background-color: $btn-dark;
+        color: $TextW;
+        border: 1px solid  $btn-dark;
+    
+    }
+}
+
+.Big-Pad{
+    padding: 150px 0;
+}
