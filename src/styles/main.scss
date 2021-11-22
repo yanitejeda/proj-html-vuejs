@@ -1,0 +1,29 @@
+.h1-tittle-d{
+color: $dark-text;
+}
+
+.text-g{color: $green-text;}
+.back-GB{ background-color: $color-Bl;}
+.bg-card{ background-color: #1D2528;}
+.pad-5{
+    padding: 0 10px;
+    background-color:  rgba(96, 169, 173, 0.3);
+}
+
+.img-box{
+    width: 80%;
+    margin: 0 auto;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+ul{
+    list-style:none
+}
+
+.bg-img-numbers{
+    background-image: url(./assets/bg-1.jpg);
+
+}

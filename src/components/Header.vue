@@ -8,9 +8,9 @@
   </div>
 </template>
 <script>
-import NavBar from "./NavBar.vue";
-import NavMenu from "./NavMenu.vue";
-import PresentationPage from "./PresentationPage.vue"
+import NavBar from "./header/NavBar.vue"
+import NavMenu from "./header/NavMenu.vue"
+import PresentationPage from "./header/PresentationPage.vue"
 export default {
   name: "Header",
   components: {

@@ -25,6 +25,7 @@ export default {
 
 <style lang="scss">
 @import "styles/app";
-@import "styles/header"
+@import "styles/header";
+@import "styles/main"
 
 </style>
