@@ -5,6 +5,8 @@ color: $dark-text;
 .text-g{color: $green-text;}
 .back-GB{ background-color: $color-Bl;}
 .bg-card{ background-color: #1D2528;}
+.back-green{ background-color: $btn-dark;}
+.cs{ background-color: $btn-dark;}
 .pad-5{
     padding: 0 10px;
     background-color:  rgba(96, 169, 173, 0.3);
@@ -13,6 +15,15 @@ color: $dark-text;
 .img-box{
     width: 80%;
     margin: 0 auto;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.img-card{
+    border-radius: 10%;
+    overflow: hidden;
     img{
         width: 100%;
         object-fit: cover;
