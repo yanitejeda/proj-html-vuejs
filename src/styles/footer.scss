@@ -1,0 +1,20 @@
+@import "styles/variables";
+
+.bg-img-footer{
+    background-image: url(./assets/bg-7.jpg);
+    background-size: cover;
+    width: 100vw;
+    background-position: center;
+
+}
+
+.card-s{
+    padding: 0px 20px;
+    width: calc(100% / 4);
+}
+
+.bg-card-footer{background-color:  rgba(29, 37, 40, 0.3);
+}
+
+.bg-card-footer-n{background-color:  rgba(29, 37, 40, 0);
+}
