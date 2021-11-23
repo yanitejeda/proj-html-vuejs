@@ -1,5 +1,18 @@
-.h1-tittle-d{
-color: $dark-text;
+.bord-10{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.w_full{ width: 100%;}
+.h1-tittle-d{color: $dark-text;}
+.card{border: none;}
+.b-none{border: none;}
+.bg-grey{background-color: $ColorG;}
+.w-half{width: 49%;}
+.inpt-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .text-g{color: $green-text;}
@@ -21,7 +34,68 @@ color: $dark-text;
     }
 }
 
-.img-card{
+.box-text-img{
+
+    .text-off-hover{
+        opacity: 1;
+    }
+    &:hover{
+        .text-off-hover{
+            opacity: 0;
+        }
+    }
+
+    &:hover{
+        .hover-text{
+            opacity: 1;
+             background-color:  rgba(0, 0, 0, 0.411);
+
+        }
+    }
+
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    //testo della card nascosto
+    .hover-text{
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    h4 {
+        position: absolute;
+    bottom: 30px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    }
+ 
+
+    
+}
+
+.news-img{
+    position: relative;
+   
+
+    &::before{     
+    content: "";
+    background-color: rgba(0, 0, 0, 0.308);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    }
+}
+
+.news-img, .img-card{
+    
     border-radius: 10%;
     overflow: hidden;
     img{
@@ -29,6 +103,8 @@ color: $dark-text;
         object-fit: cover;
     }
 }
+
+
 
 ul{
     list-style:none

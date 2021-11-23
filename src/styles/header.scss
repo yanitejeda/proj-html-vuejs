@@ -10,11 +10,30 @@
     background-image: url(./assets/bg-2.jpg);
     background-size: cover;
     height: 50vw;
+    position: relative;
 }
+/* 
+.bg-img::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
+
 
 .btn-green{
     background-color: $btn-dark;
     color: $TextW;
+    padding-inline: 20px;
+}
+
+.btn-green-tex{
+    border: 1px solid $btn-dark;
+    color: $btn-dark;
+    padding-inline: 20px;
 }
 
 .btn-light{
@@ -22,6 +41,7 @@
     background:none;
     border: 1px solid  $btn-dark;
     color: $TextW;
+    padding-inline: 20px;
 
     &:hover{
         

@@ -13,7 +13,7 @@
               placeat nam nostrum, reprehenderit doloremque fugiat obcaecati.
             </p>
           </div>
-          <div class="col-4 d-flex justify-content-right align-items-start">
+          <div class="col-4 d-flex justify-content-end align-items-start">
             <button class="btn btn-green">SEE ALL</button>
           </div>
         </div>
