@@ -9,9 +9,13 @@
                    </li>    
                </div>
                 <div class="d-flex">
-                   <li v-for="(item, i) in navItem" :key="i">
+                    <HeaderNavItem v-for="(item, i) in navItem " :key="i"
+                    :navInfo="item.navInfo">
+
+                    </HeaderNavItem>
+                   <!-- <li v-for="(item, i) in navItem" :key="i">
                      <a class="nav-link color-lightW" href="#" v-html="item.navInfo"></a>
-                   </li>  
+                   </li> -->  
                    <button class="btn btn-green">GET IN TOUCH</button>
                </div>
                
@@ -21,8 +25,10 @@
   </div>
 </template>
 <script>
+import HeaderNavItem from "./HeaderNavItem.vue"
 export default {
   name: "NavMenu",
+  components:{HeaderNavItem},
   data(){
       return{
           navItem:[
