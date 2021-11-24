@@ -3,7 +3,8 @@
     <div class="bg-img">
       <div class="header-box-b">
         <NavBar></NavBar>
-        <NavMenu></NavMenu>
+        <NavMenu>
+        </NavMenu>
         <PresentationPage></PresentationPage>
       </div>
     </div>

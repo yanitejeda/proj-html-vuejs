@@ -6,7 +6,7 @@
           <div class="col-8">
             <div class="text-g font-W6 pb-3">NEWSLETTE</div>
             <h1 class="pb-5 font-W6">
-              <span class="pad-5  bord-10 text-g">Know</span> <span>First</span>
+              <span class="pad-5  bord-10">Know</span> <span>First</span>
             </h1>
             <p class="font-w3">Lorem ipsum dolor, sit ametvelit sint qui quas</p>
           </div>

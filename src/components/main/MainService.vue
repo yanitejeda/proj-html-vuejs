@@ -19,12 +19,14 @@
         </div>
       </div>
 
+
+<!-- section card background black -->
    <div class="d-flex flex-wrap justify-content-between ">
-          <div class="card my-3 py-3 bg-card" style="width: 18rem" v-for="(item, i) in cardItem " :key="i">
+          <div class="card my-3 py-3 card-service bg-card" style="width: 18rem" v-for="(item, i) in cardItem " :key="i">
         <div class="card-body ">
-            <div class="justify-content-between text-g d-flex">
-                 <h4>{{item.icon}}</h4>
-                 <span>Freccia</span>
+            <div class="justify-content-between icon-card-header text-g d-flex">
+                 <h4 v-html="item.icon"></h4>
+                 <span><i class="fas fa-arrow-right"></i></span>
             </div>
             <h5 class="card-title font-W6">{{item.tittle}}</h5>
             <p class="card-text font-w3 py-3">
@@ -44,32 +46,32 @@ export default {
     return {
       cardItem: [
         {
-          icon: "icona",
+          icon: '<i class="fas fa-boxes"></i>',
           tittle: "Audit & Assurance",
           text:"Lorem ipsum dolor sit amet consectetur adipisicing elit."
         },
         {
-          icon: "icona",
+          icon: '<i class="fas fa-suitcase"></i>',
           tittle: "Financial Advisory",
           text:"Lorem ipsum dolor sit amet consectetur adipisicing elit."
         },
         {
-          icon: "icona",
+          icon: '<i class="fas fa-chart-bar"></i>',
           tittle: "Analytics and M&A",
           text:"Lorem ipsum dolor sit amet consectetur adipisicing elit."
         },
         {
-          icon: "icona",
+          icon: '<i class="fas fa-plane-departure"></i>',
           tittle: "Middle Marketing",
           text:"Lorem ipsum dolor sit amet consectetur adipisicing elit."
         },
         {
-           icon: "icona",
+           icon: '<i class="fas fa-globe-americas"></i>',
           tittle: "Legal Consulting",
           text:"Lorem ipsum dolor sit amet consectetur adipisicing elit."
          },
         {
-          icon: "icona",
+          icon: '<i class="fas fa-inbox"></i>',
           tittle: "Regulatory Risk",
           text:"Lorem ipsum dolor sit amet consectetur adipisicing elit."
          },

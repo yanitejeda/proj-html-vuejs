@@ -8,7 +8,7 @@
             <div class="card card-s my-3 py-3 bg-card-footer-n col-3">
             <div class="card-body">
                 <div>
-                <h4>logo</h4>
+                <h4><span class=" borde-left"> NEX</span><span class="color-lightG">GEN</span></h4>
             
                 </div>
                 <p class="font-w3 color-grey">
@@ -16,15 +16,15 @@
                 </p>
                 
                 <p class="card-text font-w3 color-grey ">
-                +(305) 1234-5679
+                <i class="fas fa-phone-alt"></i> +(305) 1234-5679
                 </p>
                 
                 <p class="card-text font-w3 color-grey ">
-                    icon hello@example.com
+                  <i class="fas fa-envelope"></i>   hello@example.com
                 </p>
                 
                 <p class="card-text font-w3 color-grey ">
-                icon Main Avenue, 987
+                <i  class="fas fa-map-marker-alt"></i> Main Avenue, 987
                 </p>
                 <button class="btn btn-light">GET IN TOUCH</button>
                 

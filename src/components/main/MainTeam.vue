@@ -30,7 +30,7 @@
                     <div class="col-7">
                         <h5 class="card-title font-W6">{{item.tittle}}</h5>
                         <p class="font-w3 font-s12 color-grey">{{item.position}}</p>
-                        <p class="card-text">{{item.social1}} {{item.social2}} {{item.social3}}</p>
+                        <p class="card-text text-g"  ><span class="icon-circle" v-html="item.social1"></span> <span class="icon-circle" v-html="item.social2"></span> <span class="icon-circle" v-html="item.social3"></span></p>
                     </div>
                     </div>
                 </div>
@@ -41,12 +41,12 @@
             <div class="col-4  color-lightW px-3 bord-10 back-green">
                 <h5 class="pt-4 font-w6 ">President Speed</h5>
                 <div>
-                    <p class="pb-3 font-w3 mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi consectetur ex repellat magni eveniet, debitis assumenda ad illum? Delectus dolor eni</p>
+                    <p class="pb-3 font-w3 mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi consectetur ex repellat</p>
                     <p class="pb-3 font-w3 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quo similique illum. Iusto, similique corrupti nobis, eum repudiandae magnam minima.</p>
-                    <p class="pb-3 font-w3 mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis voluptatibus illo porro ab quos ipsum blanditiis doloremque fugiat consequuntur rem in par</p>
+                    <p class="pb-3 font-w3 mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis voluptatibus illo porro ndis voluptati ndis voluptatindis voluptati </p>
 
                 </div>
-                <h6 class="pb-3 font-w6">T.Johnson</h6>
+                <h6 class="pt-5 font-w6">T.Johnson</h6>
 
             </div>
        </div>
@@ -62,30 +62,30 @@ export default {
                   img:"team-1.jpg",
                   tittle:"David Cooper",
                   position: "CTO & CC-FOUNDER",
-                  social1: "f",
-                  social2:"t",
-                  social3:"in",
+                  social1: '<i class="fab fa-facebook-f"></i>',
+                  social2:'<i class="fab fa-twitter"></i>',
+                  social3:"<i class='fab fa-linkedin-in'></i>",
               }, {
                   img:"team-2.jpg",
                   tittle:"David Cooper",
                   position: "CTO & CC-FOUNDER",
-                  social1: "f",
-                  social2:"t",
-                  social3:"in",
+                  social1: '<i class="fab fa-facebook-f"></i>',
+                  social2:'<i class="fab fa-twitter"></i>',
+                  social3:"<i class='fab fa-linkedin-in'></i>",
               }, {
                   img:"team-3.jpg",
                   tittle:"David Cooper",
                   position: "CTO & CC-FOUNDER",
-                  social1: "f",
-                  social2:"t",
-                  social3:"in",
+                  social1: '<i class="fab fa-facebook-f"></i>',
+                  social2:'<i class="fab fa-twitter"></i>',
+                  social3:"<i class='fab fa-linkedin-in'></i>",
               }, {
                   img:"team-4.jpg",
                   tittle:"David Cooper",
                   position: "CTO & CC-FOUNDER",
-                  social1: "f",
-                  social2:"t",
-                  social3:"in",
+                  social1: '<i class="fab fa-facebook-f"></i>',
+                  social2:'<i class="fab fa-twitter"></i>',
+                  social3:"<i class='fab fa-linkedin-in'></i>",
               }, 
           ]
       }

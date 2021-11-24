@@ -3,16 +3,14 @@
       <div class="Box-container">
            <nav class="nav d-flex justify-content-between align-items-center py-3">
                <div class="d-flex color-lightW">
-                   <li>
-                     NexGen
+                   <li class="font-w3">
+                       <span class=" borde-left"> NEX</span><span class="color-lightG">GEN</span>
+                    
                    </li>    
                </div>
                 <div class="d-flex">
-                  <!--  <li>
-                       <a class="nav-link active" aria-current="page" href="#">Active</a> 
-                   </li> -->
                    <li v-for="(item, i) in navItem" :key="i">
-                     <a class="nav-link color-lightW" href="#">{{item.navInfo}}</a>
+                     <a class="nav-link color-lightW" href="#" v-html="item.navInfo"></a>
                    </li>  
                    <button class="btn btn-green">GET IN TOUCH</button>
                </div>
@@ -44,7 +42,7 @@ export default {
                   navInfo : "BLOG"
               },
                {
-                  navInfo : "ICONA"
+                  navInfo : "<i class='far fa-user'></i>"
               }
           ]
       }
