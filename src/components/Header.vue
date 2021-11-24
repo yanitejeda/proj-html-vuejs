@@ -1,9 +1,11 @@
 <template>
   <div id="header">
     <div class="bg-img">
-      <NavBar></NavBar>
-      <NavMenu></NavMenu>
-      <PresentationPage></PresentationPage>
+      <div class="header-box-b">
+        <NavBar></NavBar>
+        <NavMenu></NavMenu>
+        <PresentationPage></PresentationPage>
+      </div>
     </div>
   </div>
 </template>

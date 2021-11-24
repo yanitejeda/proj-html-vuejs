@@ -133,3 +133,29 @@ ul{
     background-image: url(./assets/bg-1.jpg);
 
 }
+
+.p-relative{position: relative;}
+
+.box-play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.box-play2{
+    display: flex;
+    color: #CAECEC;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
