@@ -4,11 +4,11 @@
       <div>
         <div class="row">
           <div class="col-8">
-            <div class="text-g pb-3">SEND A MESSAGE</div>
-            <h1 class="pb-5">
-              <span>Get in</span><span class="pad-5 text-g">Touch</span>
+            <div class="text-g  pb-3">SEND A MESSAGE</div>
+            <h1 class="pb-5 font-W6">
+              <span>Get in</span><span class="pad-5 bord-10 text-g">Touch</span>
             </h1>
-            <p>Lorem ipsum dolor, sit ametvelit sint qui quas</p>
+            <p class="font-w3 color-grey">Lorem ipsum dolor, sit ametvelit sint qui quas</p>
 
             <div>
               <div class="inpt-box my-3">
@@ -44,12 +44,12 @@
           </div>
 
           <div class="col-4 align-items-start">
-              <h5>Example inc.</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-            <div class="py-2">icon +(305) 1234-5679</div>
-            <div class="py-2">icon hello@example.com</div>
-            <div class="py-2">icon Main Avenue, 987</div>
+              <h5 class="font-W6">Example inc.</h5>
+              <p class="color-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p class="color-grey">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <div class="py-2 text-g ">icon +(305) 1234-5679</div>
+            <div class="py-2 text-g">icon hello@example.com</div>
+            <div class="py-2 text-g">icon Main Avenue, 987</div>
             <button class="btn btn-green-tex my-1">SEE ALL</button>
 
           </div>

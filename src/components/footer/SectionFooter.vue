@@ -11,19 +11,19 @@
                 <h4>logo</h4>
             
                 </div>
-                <p>
+                <p class="font-w3 color-grey">
                     Lorem ipsum dolor, sit ametvelit sint qui qu
                 </p>
                 
-                <p class="card-text ">
+                <p class="card-text font-w3 color-grey ">
                 +(305) 1234-5679
                 </p>
                 
-                <p class="card-text ">
+                <p class="card-text font-w3 color-grey ">
                     icon hello@example.com
                 </p>
                 
-                <p class="card-text ">
+                <p class="card-text font-w3 color-grey ">
                 icon Main Avenue, 987
                 </p>
                 <button class="btn btn-light">GET IN TOUCH</button>
@@ -37,26 +37,26 @@
                 <div class="card card-s my-3 py-3 bg-card-footer col-3"  v-for="(item, i) in footerItem" :key="i">
                     <div class="card-body">
                         <div>
-                        <h4>{{item.tittle}}</h4>
+                        <h4 class="font-W6">{{item.tittle}}</h4>
                     
                         </div>
                         
-                        <p class="card-text ">
+                        <p class="card-text font-w3 color-grey">
                             {{item.info1}}
                         </p>
-                        <p class="card-text ">
+                        <p class="card-text font-w3 color-grey">
                             {{item.info2}}
                         </p>
-                        <p class="card-text ">
+                        <p class="card-text font-w3 color-grey">
                             {{item.info3}}
                         </p>
-                        <p class="card-text ">
+                        <p class="card-text font-w3 color-grey">
                             {{item.info4}}
                         </p>
-                        <p class="card-text ">
+                        <p class="card-text font-w3 color-grey">
                             {{item.info5}}
                         </p>
-                        <p class="card-text ">
+                        <p class="card-text font-w3 color-grey">
                             {{item.info6}}
                         </p>
                         
@@ -73,8 +73,8 @@
     <!-- bar footer -->
     <div class="back-GB">
         <div class="Box-container justify-content-between py-3 color-lightW d-flex gap-3">
-            <div>kkfnkafnkanfkanfka</div>
-            <div>bfjabfjabfjabfjab</div>
+            <div class="font-w3 color-grey">Lorem ipsum dolor, sit ametvelit sint qui qu</div>
+            <div class="font-w3 color-grey">sit ametvelit sint qui qu</div>
         
 
         </div>

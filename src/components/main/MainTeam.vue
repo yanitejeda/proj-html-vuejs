@@ -1,20 +1,18 @@
 
 <template>
   <div class="Box-container py-5">
-    <div class="text-g">WE LIKE WHAT WE DO</div>
+    <div class="text-g font-W6">WE LIKE WHAT WE DO</div>
 
        <div class="row">
            <!-- part left -->
            <div class="col-8"> 
-            <h1 class="py-3">
-            <span class="text-g pad-5">Team</span
-            ><span class="h1-tittle-d">of Experts</span>
+            <h1 class="py-3 font-W6">
+            <span class="text-g font-W pad-5 bord-10">Team</span
+            > <span class="h1-tittle-d">of Experts</span>
             </h1>
-            <p>
+            <p class="font-w3 color-grey">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum
-            vero nemo deserunt dignissimos provident porro, laudantium veniam quam
-            iusto incidunt aliquid quasi distinctio impedit. Dolores eum accusantium
-            facere repellendus!
+            vero nemo deserunt dignissimos provident porro.
             </p>
             
             <!-- box Card -->
@@ -30,8 +28,8 @@
                         </div>
                     </div>
                     <div class="col-7">
-                        <h5 class="card-title">{{item.tittle}}</h5>
-                        <p>{{item.position}}</p>
+                        <h5 class="card-title font-W6">{{item.tittle}}</h5>
+                        <p class="font-w3 font-s12 color-grey">{{item.position}}</p>
                         <p class="card-text">{{item.social1}} {{item.social2}} {{item.social3}}</p>
                     </div>
                     </div>
@@ -40,15 +38,15 @@
            </div>
 
           <!-- part right -->
-            <div class="col-4 color-lightW px-3 bord-10 back-green">
-                <h5 class="pt-4">President Speed</h5>
+            <div class="col-4  color-lightW px-3 bord-10 back-green">
+                <h5 class="pt-4 font-w6 ">President Speed</h5>
                 <div>
-                    <p class="pb-3 mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi consectetur ex repellat magni eveniet, debitis assumenda ad illum? Delectus dolor eni</p>
-                    <p class="pb-3 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quo similique illum. Iusto, similique corrupti nobis, eum repudiandae magnam minima.</p>
-                    <p class="pb-3 mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis voluptatibus illo porro ab quos ipsum blanditiis doloremque fugiat consequuntur rem in par</p>
+                    <p class="pb-3 font-w3 mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi consectetur ex repellat magni eveniet, debitis assumenda ad illum? Delectus dolor eni</p>
+                    <p class="pb-3 font-w3 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quo similique illum. Iusto, similique corrupti nobis, eum repudiandae magnam minima.</p>
+                    <p class="pb-3 font-w3 mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis voluptatibus illo porro ab quos ipsum blanditiis doloremque fugiat consequuntur rem in par</p>
 
                 </div>
-                <h6 class="pb-3">T.Johnson</h6>
+                <h6 class="pb-3 font-w6">T.Johnson</h6>
 
             </div>
        </div>

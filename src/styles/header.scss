@@ -1,11 +1,10 @@
 @import "styles/variables";
 
-.nav-bgc{
-    background-color: $BCdarkBlue;
-}
-.color-lightW{
-    color: $TextW;
-}
+.nav-bgc{  background-color: $BCdarkBlue;}
+.color-lightW{color: $TextW;}
+.color-lightG{color: $ColorGreyH;}
+.font-W8{font-weight: 800;}
+
 .bg-img{
     background-image: url(./assets/bg-2.jpg);
     background-size: cover;

@@ -12,6 +12,7 @@
   import Footer from "./components/Footer.vue";
 
 
+
 export default {
   name: "app",
   components: {
@@ -27,6 +28,7 @@ export default {
 @import "styles/app";
 @import "styles/header";
 @import "styles/main";
-@import "styles/footer"
+@import "styles/footer";
+
 
 </style>

@@ -1,14 +1,14 @@
 <template>
   <div class="back-GB">
     <div class="Box-container py-5 color-lightW">
-      <div class="text-g pb-3">what are we doing</div>
+      <div class="text-g font-W6 pb-3">what are we doing</div>
       <h1 class="pb-5">
-        <span>Excellence in</span><span class="pad-5">Services</span>
+        <span>Excellence in</span> <span class="pad-5 bord-10">Services</span>
       </h1>
       <div>
         <div class="row">
           <div class="col-8">
-            <p>
+            <p class="font-w3">
               Lorem ipsum dolor, sit amet conex quaerat velit sint qui quas hic
               placeat nam nostrum, reprehenderit doloremque fugiat obcaecati.
             </p>
@@ -23,11 +23,11 @@
           <div class="card my-3 py-3 bg-card" style="width: 18rem" v-for="(item, i) in cardItem " :key="i">
         <div class="card-body ">
             <div class="justify-content-between text-g d-flex">
-                 <h4>{{item.con}}</h4>
+                 <h4>{{item.icon}}</h4>
                  <span>Freccia</span>
             </div>
-            <h5 class="card-title">{{item.tittle}}</h5>
-            <p class="card-text py-3">
+            <h5 class="card-title font-W6">{{item.tittle}}</h5>
+            <p class="card-text font-w3 py-3">
                 {{item.text}}
             </p>
         </div>

@@ -2,24 +2,42 @@
     border-radius: 5px;
     overflow: hidden;
 }
+.pad-10{padding: 10px;}
+.pad-20{padding: 20px;}
+
+
+//font weight / size
+.font-W6{font-weight: 600;}
+
+.font-w3{font-weight: 300;}
+.font-s12{font-size: 12px;}
+
+.card-news-tittle{
+    font-size: 16px;
+    font-weight: 600;
+    }
+//color
+.bg-color-none{background-color: #ffffff00;}
+.bg-color-grey{background-color: #EEF4ED;}
+.h1-tittle-d{color: $dark-text;}
+.bg-grey{background-color: $ColorG;}
+.text-g{color: $green-text;}
+.back-GB{ background-color: $color-Bl;}
+.bg-card{ background-color: #1D2528;}
+.back-green{ background-color: $btn-dark;}
+.cs{ background-color: $btn-dark;}
+.color-grey{color: $ColorDark-grey;}
+
 
 .w_full{ width: 100%;}
-.h1-tittle-d{color: $dark-text;}
 .card{border: none;}
 .b-none{border: none;}
-.bg-grey{background-color: $ColorG;}
 .w-half{width: 49%;}
 .inpt-box{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-.text-g{color: $green-text;}
-.back-GB{ background-color: $color-Bl;}
-.bg-card{ background-color: #1D2528;}
-.back-green{ background-color: $btn-dark;}
-.cs{ background-color: $btn-dark;}
 .pad-5{
     padding: 0 10px;
     background-color:  rgba(96, 169, 173, 0.3);
@@ -49,6 +67,7 @@
         .hover-text{
             opacity: 1;
              background-color:  rgba(0, 0, 0, 0.411);
+             backdrop-filter: blur(2px);
 
         }
     }

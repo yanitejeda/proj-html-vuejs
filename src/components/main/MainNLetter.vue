@@ -4,11 +4,11 @@
       <div>
         <div class="row">
           <div class="col-8">
-            <div class="text-g pb-3">OUR EDITORIAL CONTENT</div>
-            <h1 class="pb-5">
-              <span>Latest</span><span class="pad-5 text-g">News</span>
+            <div class="text-g font-W6 pb-3">NEWSLETTE</div>
+            <h1 class="pb-5 font-W6">
+              <span class="pad-5  bord-10 text-g">Know</span> <span>First</span>
             </h1>
-            <p>Lorem ipsum dolor, sit ametvelit sint qui quas</p>
+            <p class="font-w3">Lorem ipsum dolor, sit ametvelit sint qui quas</p>
           </div>
 
           <div class="col-4 align-items-start">
@@ -21,7 +21,7 @@
               />
             </div>
 
-            <button class="btn my-2 btn-green">SEE ALL</button>
+            <button class="btn my-2 btn-green">SUBSCRIBE</button>
           </div>
         </div>
       </div>
